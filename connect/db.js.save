@@ -1,9 +1,9 @@
-var mysql      = require('mysql');
+apuivar mysql      = require('mysql');
 module.exports = () => {
   return mysql.createConnection({
     host     : 'localhost',
-    user     : 'api',
-    password : 'antonio',
+    user     : 'root',
+    password : 'curso',
     database : 'visibilidad'
   });
 }
